@@ -195,7 +195,7 @@ export async function buildXMLandRSS ({ config }) {
   if (!config.siteRoot) {
     console.log(
       `
-=> Warning: No 'siteRoot' defined in 'static.config.js'!
+=> Warning: No 'siteRoot' defined in 'static.config.js'!!
 => This is required for both absolute url's and a sitemap.xml to be exported.
 `,
     )
